@@ -14,7 +14,7 @@
  * $connectionUrl = sprintf('mongodb://%s:%d/%s', $host, $port, $database);
  * $connection = new Mongo($connectionUrl, array('username' => $username, 'password' => $password));
  */ 
-$connection = new MongoClient();
+$connection = new MongoClient(http://13.233.127.6:80);
 
 /**
  * Select database named "test"
